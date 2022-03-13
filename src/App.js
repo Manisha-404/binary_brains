@@ -31,7 +31,7 @@ function App() {
         <Route path="Mumbai" exact  element={<Mumbai/>} />
         <Route path="Goa" exact  element={<Goa/>} />
         <Route path="Jaipur" exact  element={<Jaipur/>} />
-        <Route path="*" element={<Error404/>} />
+        <Route path="*" element={<Home/>} />
       </Routes>
     </BrowserRouter>
   );
