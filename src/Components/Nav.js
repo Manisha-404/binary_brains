@@ -19,7 +19,7 @@ function Nav() {
             <input className={styles.input} type="checkbox"  onChange={(event) => setIsChecked(event.currentTarget.checked)}checked={isChecked} id="checkbox_toggle" />
             <FontAwesomeIcon onClick={() => setIsChecked(!isChecked)} className={styles.hamburger} icon={faBars} size="lg" color='#306079'/>
             <div className={styles.menu}>
-              <Link className={styles.link} to="/binary_brains"> 
+              <Link className={styles.link} to="/"> 
               <li className={styles.rotate} >Home</li>
               </Link>
               <Link className={styles.link} to="/Services">
